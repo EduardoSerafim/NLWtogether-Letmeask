@@ -5,9 +5,9 @@ export const AuthContext = createContext({} as AuthContextType);
 
 
 type User = {
-    id:String;
-    name: String;
-    avatar:String;
+    id:string;
+    name: string;
+    avatar:string;
   }
   
 type AuthContextType = {
